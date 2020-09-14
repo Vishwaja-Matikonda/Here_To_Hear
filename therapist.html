@@ -1,0 +1,4776 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/style3.css">
+  <script type="text/javascript" src="js/min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Animated -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Therapist - Here To Hear</title>
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+
+<style>
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    background: linear-gradient(to right, #f5f5b7 0%, #e6beab 100%);
+
+    /* background-image: url("43.jpg"); */
+    /* width: max-content; */
+    /* opacity: 0.9; */
+    /* height: 550px; */
+
+  }
+
+  /* img{
+    position: absolute; 
+    bottom: 0px;
+    padding-right: 70px;
+  } */
+</style>
+
+<body>
+  <!-- 
+***************************************************************************************************************************************8
+                                                          NAVIGATION
+******************************************************************************************************************************************************************************************************************************************* -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container" id="nav">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" width="70px" height="70px" alt="">
+      </a>
+
+      <a class="navbar-brand" id="company" href="#">HERE TO HEAR</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-warning" href="index.html">Home</a>
+          </li>
+
+          <!-- About Us -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Mental Health
+            </a>
+            <div class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
+
+              <a class="dropdown-item text-dark" href="about.html">About Mental Health</a>
+              <a class="dropdown-item text-dark" href="types.html">Types Of Mental Health</a>
+            </div>
+          </li>
+
+
+          <!-- FIND A THERAPIST -->
+
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="therapist.html">Find Therapist</a>
+          </li>
+
+
+          <!-- MEDIA -->
+
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="media.html">Media </a>
+          </li>
+
+
+          <!-- Online help -->
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="helpline.html">Need Help?</a>
+          </li>
+
+
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+
+  <!-- ################################################################################################################################################# -->
+
+  <div class="bgimg-8">
+    <center>
+      <br><br><br>
+      <h1 style="font-weight: bolder; color: rgb(0, 0, 0); text-transform: none;">Select Your State</h1><br>
+
+      <select style="padding-top: 10px; padding-left: 50px; padding-right: 15px; padding-bottom: 10px;   background-color: #dee4df;
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 20px;
+      text-align: center;
+      text-decoration: black;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;">
+        <option>Choose State</option>
+        <option value="1">Andhra Pradesh</option>
+        <option value="2">Arunachal Pradesh</option>
+        <option value="3">Assam</option>
+        <option value="4">Bihar</option>
+        <option value="5">Chattisgarh</option>
+        <option value="6">Goa</option>
+        <option value="7">Gujarat</option>
+        <option value="8">Haryana</option>
+        <option value="9">Himachal Pradesh</option>
+        <option value="10">Jharkhand</option>
+        <option value="11">Karnataka</option>
+        <option value="12">Kerala</option>
+        <option value="13">Madhya Pradesh</option>
+        <option value="14">Maharastra</option>
+        <option value="15">Manipur</option>
+        <option value="16">Meghalaya</option>
+        <option value="17">Mizoram</option>
+        <option value="18">Nagaland</option>
+        <option value="19">Odissa</option>
+        <option value="20">Punjab</option>
+        <option value="21">Rajasthan</option>
+        <option value="22">Sikkim</option>
+        <option value="23">Tamil Nadu</option>
+        <option value="24">Telangana</option>
+        <option value="25">Tripura</option>
+        <option value="26">Uttar Pradesh</option>
+        <option value="27">Uttarkhand</option>
+        <option value="28">West Bengal</option>
+        <option value="29">Delhi</option>
+      </select>
+    </center>
+  </div>
+
+  <!-- <div class="carousel-item">
+      <video class="video-fluid" autoplay loop muted>
+        <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="carousel-item">
+      <video class="video-fluid" autoplay loop muted>
+        <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div> -->
+  <!--/.Slides-->
+  <!--Controls-->
+  <!-- <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> -->
+  <!--/.Controls-->
+
+  </div>
+
+  <!--Carousel Wrapper-->
+
+
+  <div class="1 box">
+
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1 style="text-transform: none;">Psychiatrists In Andhra Pradesh</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Murali Mind Clinic
+              </h4><br>
+              <p>
+                CONTACT : 098661 25869
+                <br><br>
+                WEBSITE : <a href="http://www.muralimindful.com/">
+                  http://www.muralimindful.com/
+                </a>
+                <br><br>
+                ADDRESS : Door No 16-1/44, M.K.Plaza, S2, Raghava Cine Complex Rd, near Vijaya Hospital, Pogathota,
+                Nellore, Andhra Pradesh 524001.
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Indlas VIMHANS Hospital
+              </h4><br>
+              <p>
+                CONTACT : 0866 243 2040
+                <br><br>
+                WEBSITE : <a href="https://vimhanshospital.org/">
+                  https://vimhanshospital.org/
+                </a>
+                <br><br>
+                ADDRESS : Devi Oil Mill Road, Vishnu Vardhana Rao St, Suryaraopeta, Vijayawada, Andhra Pradesh 520002
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Khushi Neuro Psychiatric Centre
+              </h4><br>
+              <p>
+                CONTACT : 099633 51699
+                <br><br>
+                WEBSITE : <a href="http://khushipsychiatry.com/?utm_source=gmb&utm_medium=referral">
+                  http://khushipsychiatry.com/?utm_source=gmb&utm_medium=referral
+                </a>
+                <br><br>
+                ADDRESS : 29-7, 46/1, Vishnu Vardhana Rao St, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh
+                520002
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mahatma Gandhi Institute For Comprehensive Mental Healthcare
+              </h4><br>
+              <p>
+                CONTACT : 0863 222 3111
+                <br><br>
+                WEBSITE : <a href="https://mgicmh.org/">
+                  https://mgicmh.org/
+                </a>
+                <br><br>
+                ADDRESS : opp. Sanjeevini Medical Complex, Kakumanu Vari Thota, Kothapeta, Guntur, Andhra Pradesh 522001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Vedas Psychological Counselling & Clinic
+              </h4><br>
+              <p>
+                CONTACT : 099494 25929
+                <br><br>
+                WEBSITE : <a href="vedashospitals.com">
+                  vedashospitals.com
+                </a>
+                <br><br>
+                ADDRESS : D.No.78-13-5, Hospital Street, near Suraksha Emergency, Syamala Nagar, Gandhipuram,
+                Rajahmundry, Andhra Pradesh 533103
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Manasa Hospital Of Dr. Karri Rama Reddy
+              </h4><br>
+              <p>
+                CONTACT : 0883 246 7286
+                <br><br>
+                WEBSITE : <a href="http://www.ramareddykarri.com/">
+                  http://www.ramareddykarri.com/
+                </a>
+                <br><br>
+                ADDRESS : Manasa Hospital Rd, Prakasam Nagar, Rajahmundry, Andhra Pradesh 533103
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Rama Mind & Maternity Hospital
+              </h4><br>
+              <p>
+                CONTACT : 089125 11953
+                <br><br>
+
+                ADDRESS : 1ST FLOOR, B V S RESIDENCY, BESIDE BABA HOSPITAL SURYA HOSPITAL ROAD, COLLECTOR OFFICE
+                JUNCTION, Visakhapatnam, Andhra Pradesh 530002
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Hari's Neuro Mind Clinic
+              </h4><br>
+              <p>
+                CONTACT : 084999 83083
+                <br><br>
+                WEBSITE : <a href="http://www.drharisneuromindclinic.com/">
+                  http://www.drharisneuromindclinic.com/
+                </a>
+                <br><br>
+                ADDRESS : Gayathri Estates, Gayathree Estates, Deva Nagar, Kurnool, Andhra Pradesh 518001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Subahani Shaik - Best Psychiatrist in Nellore
+              </h4><br>
+              <p>
+                CONTACT : 099955 22821
+                <br><br>
+                WEBSITE : <a href="https://drsubahani.com/">
+                  https://drsubahani.com/
+                </a>
+                <br><br>
+                ADDRESS : Pogathota, Nellore, Andhra Pradesh 524001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. K Sarada - Best Psychiatrist in Visakhapatnam
+              </h4><br>
+              <p>
+                CONTACT : 1860 500 4916
+                <br><br>
+                WEBSITE : <a href="askapollo.com">
+                  askapollo.com
+                </a>
+                <br><br>
+                ADDRESS : Apollo Clinic Seethammapeta Vizag Door No. 50 81 1 / 2, Plot No. 5, Near Bvk College,
+                Sheethammapeta, Visakhapatnam, Andhra Pradesh 530016
+              </p>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+
+
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20andhra%20pradesh&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="2 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1 style="text-transform: none;">Psychiatrists In Arunachal Pradesh</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Epilepsy De Addiction and Neuro Psychiatric Centre
+              </h4><br>
+              <p>
+                CONTACT : 0360 229 1564
+                <br><br>
+                ADDRESS : Model, Papum Pare, NH-52A, Itanagar Road, Naharlagun, Naharlagun, Arunachal Pradesh 791110
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind Care
+              </h4><br>
+              <p>
+                CONTACT : 081319 12830
+                <br><br>
+
+                ADDRESS : Upper Chimi, Doni colony, Papum Pare, NH-52A, Itanagar Main Road, Itanagar, Itanagar,
+                Arunachal Pradesh 791113
+              </p>
+
+            </li>
+
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Nahid Suraiya Islam
+              </h4><br>
+              <p>
+                CONTACT : 098640 72807
+                <br><br>
+
+                ADDRESS : Super Market, GNRC Hospital, Dispur, Guwahati, Assam 781006
+              </p>
+
+            </li>
+
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Ramakrishna Mission Hospital
+              </h4><br>
+              <p>
+                CONTACT : 0360 221 2263
+                <br><br>
+                WEBSITE : <a href="http://www.rkmhita.org/">
+                  http://www.rkmhita.org/
+                </a>
+                <br><br>
+                ADDRESS : P.O. R.K. Mission, Itanagar, Arunachal Pradesh 791113
+              </p>
+
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20arunachal%20pradesh&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+
+          </div> <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="3 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1 style="text-transform: none;">Psychiatrists In Assam</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Jyotirmoy Das MD
+              </h4><br>
+              <p>
+                CONTACT : 084864 83479
+                <br><br>
+                WEBSITE : <a href="medicityguwahati.com">
+                  medicityguwahati.com
+                </a>
+                <br><br>
+                ADDRESS : Medicity Guwahati,dispur hatigaon main road, Opp sankar path near sewali path hatigaon,
+                Guwahati, Assam 781006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Jayanta Das Psychiatric Clinic
+              </h4><br>
+              <p>
+                CONTACT : 087610 10858
+                <br><br>
+                WEBSITE : <a href="https://dr-jayanta-das-psychiatric-clinic.business.site/">
+                  https://dr-jayanta-das-psychiatric-clinic.business.site/
+                </a>
+                <br><br>
+                ADDRESS : Mahatma Gandhi Road, River Side, opp. Guwahati Planetarium, Latasil, Uzan Bazar, Guwahati,
+                Assam 781001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Apollo Clinic
+              </h4><br>
+              <p>
+                CONTACT : 076638 12002
+                <br><br>
+                WEBSITE : <a href="apolloclinicguwahati.co.in">
+                  apolloclinicguwahati.co.in
+                </a>
+                <br><br>
+                ADDRESS : Apollo Clinic, GS Rd, Dispur, Downtown, Guwahati, Assam 781006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Santanu Bora
+              </h4><br>
+              <p>
+                CONTACT : 090859 95270
+                <br><br>
+                WEBSITE : <a href="dr-santanu-bora-psychiatrist.business.site">
+                  dr-santanu-bora-psychiatrist.business.site
+                </a>
+                <br><br>
+                ADDRESS : Manikpur, Malakhubassa, Dibrugarh, Assam 786001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Sangeetha Datta
+              </h4><br>
+              <p>
+                CONTACT : 084864 83479
+                <br><br>
+                WEBSITE : <a href="medicityguwahati.com">
+                  medicityguwahati.com
+                </a>
+                <br><br>
+                ADDRESS : Medicity Guwahati.Dispur Hatigaon main road, Opp: Sankar path (Near Sewali, path) Hatigaon,
+                Guwahati, Assam 781006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Guwahati Psychiatric Hospital
+              </h4><br>
+              <p>
+
+                WEBSITE : <a href="https://medicityguwahati.com/">
+                  https://medicityguwahati.com/
+                </a>
+                <br><br>
+                ADDRESS : Panjabari Rd, Bagharbari, Guwahati, Assam 781023
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Sanjay Kumar Singh (MBBS, MD, PSYCHIATRIST & DEADDICTION SPECIALIST)
+              </h4><br>
+              <p>
+                CONTACT : 098540 55505
+                <br><br>
+                WEBSITE : <a href="https://www.mvdhealthplus.com/">
+                  https://www.mvdhealthplus.com/
+                </a>
+                <br><br>
+                ADDRESS : Purvoday Bhawan, MVD Health Plus, 1st Floor, Royal Plaza, GS Rd, Guwahati, Assam 781005
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Nahid Suraiya Islam (MD Psychiatry) - Psychiatrist
+              </h4><br>
+              <p>
+                CONTACT : 098640 72807
+                <br><br>
+
+                ADDRESS : Super Market, GNRC Hospital, Dispur, Guwahati, Assam 781006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind & Dental clinic
+              </h4><br>
+              <p>
+                CONTACT : 090859 95270
+                <br><br>
+                WEBSITE : <a href="lybrate.com">
+                  lybrate.com
+                </a>
+                <br><br>
+                ADDRESS : Convoy Rd, Boiragimoth, Dibrugarh, Assam 786003
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Sangeeta datta
+              </h4><br>
+              <p>
+                CONTACT : 084864 83479
+                <br><br>
+                WEBSITE : <a href="medicityguwahati.com">
+                  medicityguwahati.com
+                </a>
+                <br><br>
+                ADDRESS : MEDICITY, Basisthpur, Guwahati, Assam 781038
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+
+
+
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20assam&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="4 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1 style="text-transform: none;">Psychiatrists In Bihar</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Advanced Neuro Psychiatry-Sah-Nasha Mukti Clinic
+              </h4><br>
+              <p>
+                CONTACT : 091025 59227
+                <br><br>
+
+                ADDRESS : Hospital Chowk, Kachahari Road, Bihar Sharif, Bihar 803101
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Sharda Physiotherapy Clinic
+              </h4><br>
+              <p>
+                CONTACT : 098528 02086
+                <br><br>
+
+                ADDRESS : Doctors Colony, Khandak Par, Bihar Sharif, Bihar 803101
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind Care Neuro - Psychiatric Centre
+              </h4><br>
+              <p>
+                CONTACT : 082944 72816
+                <br><br>
+                WEBSITE : <a href="http://mindcareneuropsychiatricclinic.com/">
+                  http://mindcareneuropsychiatricclinic.com/
+                </a>
+                <br><br>
+                ADDRESS : BP/119, Pani Tanki More, Boring Patliputre Road, Patna, Bihar 800013
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Satyajeet Singh, MD, AIIMS Patna Neuropsychiatrist (ex)
+              </h4><br>
+              <p>
+                CONTACT : 094300 15154
+                <br><br>
+                WEBSITE : <a href="neuropsychiatrist.in">
+                  neuropsychiatrist.in
+                </a>
+                <br><br>
+                ADDRESS : Mobile 94300-15154 70042-58356; 97081-76412, Baba Chowk, Near Jivan Jyoti Medical Clinic, Dr
+                Satyajeet Singh, MD, Ex Neuro Psychiatrist, Aiims, Keshri Nagar, Patna, Bihar 800024
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Manas Clinic
+              </h4><br>
+              <p>
+                CONTACT : 070700 00466
+                <br><br>
+                WEBSITE : <a href="psychiatristpatna.in">
+                  psychiatristpatna.in
+                </a>
+                <br><br>
+                ADDRESS : Pal Market Building, 2nd Floor, Near Pillor Number 65, Bailey Rd, Patna, Bihar 800014
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                BUDDHA NEUROPSYCHIATRY (Dr Vijendra Jha)
+              </h4><br>
+              <p>
+                CONTACT : 099710 38317
+                <br><br>
+                WEBSITE : <a href="patnapsychiatry.com">
+                  patnapsychiatry.com
+                </a>
+                <br><br>
+                ADDRESS : 131/E, Boring Rd, opposite PC Jewellers, below CAFE HIDEOUT, Patna, Bihar 800001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. PK Singh
+              </h4><br>
+              <p>
+                CONTACT : 0612 268 9150
+                <br><br>
+
+                ADDRESS : Rd Number 3, Rajendra Nagar, Patna, Bihar 800016
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind & Behavior Clinic
+              </h4><br>
+              <p>
+                CONTACT : 093044 48858
+                <br><br>
+
+                ADDRESS : MIG-171, 171, MIG Rd, Doctors Colony, East Indira Nagar, Hanuman Nagar, Kankarbagh, Patna,
+                Bihar 800020
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Jayesh Ranjan Psychiatry
+              </h4><br>
+              <p>
+                CONTACT : 093344 47551
+                <br><br>
+
+                ADDRESS : Congress Maidan Rd, Kadamkuna, Patna, Bihar 800003
+              </p>
+
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=psychyatrists%20in%20bihar&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                  href="https://2torrentz.net">e torrentz</a></div>
+
+            </div>
+            <br><br><br><br><br>
+            <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+    </div>
+  </div>
+
+  <div class="5 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1 style="text-transform: none;">Psychiatrists In Chattisgarh</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Shashikant Singh Rajput
+              </h4><br>
+              <p>
+                CONTACT : 099772 47553
+                <br><br>
+                WEBSITE : <a href="http://psychiatristraipur.com/">
+                  http://psychiatristraipur.com/
+                </a>
+                <br><br>
+                ADDRESS : Shop no: 119, First Floor, Lalganga Shopping Mall, Fafadih, Bilaspur road, Raipur,
+                Chhattisgarh 492004
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Nitin Malik
+              </h4><br>
+              <p>
+                CONTACT : 098261 21821
+                <br><br>
+                WEBSITE : <a href="http://www.pragyahospital.in/">
+                  http://www.pragyahospital.in/
+                </a>
+                <br><br>
+                ADDRESS : PRAGYA HOSPITAL, 13, Anand Nagar, Opposite Radha Swami Satsang, Raipur, Chhattisgarh 492006
+              </p>
+
+            </li>
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                SOLACE MINDCARE & DEADDICTION CLINIC
+              </h4><br>
+              <p>
+                CONTACT : 083598 98122
+                <br><br>
+                WEBSITE : <a href="https://solace-mindcare-clinic-durg-dr-deepak-ghormode-md.business.site/">
+                  https://solace-mindcare-clinic-durg-dr-deepak-ghormode-md.business.site/
+                </a>
+                <br><br>
+                ADDRESS : Shop 105 106, solace clinic, kishor plaza, Green Chowk, near railway station, Durg,
+                Chhattisgarh 491001
+              </p>
+
+            </li>
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Dilip Dash
+              </h4><br>
+              <p>
+                CONTACT : 1860 500 1066
+                <br><br>
+                WEBSITE : <a href="askapollo.com">
+                  askapollo.com
+                </a>
+                <br><br>
+                ADDRESS : Apollo Hospitals, Seepat Road, Bilaspur (c.g.), Apollo Hospitals Bilaspur, Bilaspur,
+                Chhattisgarh 495006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Anil Kumar Yadav - Neuropsychiatrist
+              </h4><br>
+              <p>
+                CONTACT : 091524 99904
+                <br><br>
+
+                ADDRESS : Apollo Hospital, Bilaspur, Chhattisgarh 495006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dhanwantari Hospital Centre
+              </h4><br>
+              <p>
+                CONTACT : 079995 24390
+                <br><br>
+                WEBSITE : <a href="http://dhanwantarihospitalraipur.com/">
+                  http://dhanwantarihospitalraipur.com/
+                </a>
+                <br><br>
+                ADDRESS : Old Dhamtari Road, Vill.Kolar, Abhanpur, near Kolar Nala, Raipur, Chhattisgarh 493661
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mangalmurty Mansic Clinic & CDDT Centre
+              </h4><br>
+              <p>
+                CONTACT : 090984 55505
+                <br><br>
+                WEBSITE : <a href="http://www.drprashantagrawal.in/">
+                  http://www.drprashantagrawal.in/
+                </a>
+                <br><br>
+                ADDRESS : 1st Floor,Swabhagya Complex, Chhattisgarh 491001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Rajesh ajgalle, Neuropsychiatrist
+              </h4><br>
+              <p>
+                CONTACT : 080850 29701
+                <br><br>
+                WEBSITE : <a href="https://dr-rajesh-ajgalle-neuropsychiatrist.business.site/">
+                  https://dr-rajesh-ajgalle-neuropsychiatrist.business.site/
+                </a>
+                <br><br>
+                ADDRESS : Chhattisgarh 496001
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter ">
+            <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20CHATTISGARH&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" style="bottom: 0px;" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+  <div class="6 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Goa</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Akshada Amonkar | Psychiatrist & Psychotherapist
+              </h4><br>
+              <p>
+                CONTACT : 091581 14281
+                <br><br>
+                WEBSITE : <a href="https://dr-akshada.business.site/?utm_source=gmb&utm_medium=referral">
+                  https://dr-akshada.business.site/?utm_source=gmb&utm_medium=referral
+                </a>
+                <br><br>
+                ADDRESS : 311, Edcon Mindspace Behind Campal Trade Centre, Campal, Panaji, Goa 403001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Priya Sanzgiri
+              </h4><br>
+              <p>
+                CONTACT : 098221 27854
+                <br><br>
+                WEBSITE : <a href="https://dr-priya-sanzgiri.business.site/?utm_source=gmb&utm_medium=referral">
+                  https://dr-priya-sanzgiri.business.site/?utm_source=gmb&utm_medium=referral
+                </a>
+                <br><br>
+                ADDRESS : El Dorado Plaza, B-9, 2nd Floor, Rua Heliodoro Salgado, Panaji, Goa 403001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Melvin Chagas Silva
+              </h4><br>
+              <p>
+                CONTACT : 098905 44907
+                <br><br>
+                WEBSITE : <a href="http://psychiatristgoa.com/">
+                  http://psychiatristgoa.com/
+                </a>
+                <br><br>
+                ADDRESS : Solsons Abode Building, A2, Coqueiro Circle, behind Siddarudh Temple, Porvorim, Pilerne, Goa
+                403501
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Institute Of Psychiatry & Human Behavior, Bambolim
+              </h4><br>
+              <p>
+                CONTACT : 0832 245 8687
+                <br><br>
+                WEBSITE : <a href="http://www.iphb.goa.gov.in/">
+                  http://www.iphb.goa.gov.in/
+                </a>
+                <br><br>
+                ADDRESS : Opp. Holy Cross Shrine, Bambolim, Goa 403002
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Sakhi Mind Care
+              </h4><br>
+              <p>
+                CONTACT : 084849 40551
+                <br><br>
+                WEBSITE : <a href="sakhimindcare.com">
+                  sakhimindcare.com
+                </a>
+                <br><br>
+                ADDRESS : Anand, Shivprasad housing society, Swami Vivekananda Rd, Pundalik Nagar, Penha de França, Goa
+                403521
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Peter J Castelino
+              </h4><br>
+              <p>
+                CONTACT : 0832 226 5550
+                <br><br>
+
+                ADDRESS : Gomes Catao Complex, R. do Pinto Cordeiro, Near Alankar Theatre, Near Cine Alankar, Mapusa,
+                Goa, 403507
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Akshada Amonkar | Psychiatrist & Psychotherapist
+              </h4><br>
+              <p>
+                CONTACT : 091581 14281
+                <br><br>
+                WEBSITE : <a href="drakshada.com">
+                  drakshada.com
+                </a>
+                <br><br>
+                ADDRESS : 311, Edcon Mindspace Behind Campal Trade Centre, Campal, Panaji, Goa 403001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Victor De Souza Clinic
+              </h4><br>
+              <p>
+                CONTACT : 0832 247 0343
+                <br><br>
+
+                ADDRESS : Moira, Goa 403507
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Ravindra Agarwal
+              </h4><br>
+              <p>
+                CONTACT : 0832 251 3696
+                <br><br>
+                WEBSITE : <a href="http://psychiatristingoa.weebly.com/">
+                  http://psychiatristingoa.weebly.com/
+                </a>
+                <br><br>
+                ADDRESS : Railway Station, Mesquita Hospital Julieta Bldg, near Vasco, Vasco da Gama, Goa 403802
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20goa&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="7 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Gujarat</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Kalrav Mistry
+              </h4><br>
+              <p>
+                CONTACT : 096249 11162
+                <br><br>
+                WEBSITE : <a href="drkalravmistry.com">
+                  drkalravmistry.com
+                </a>
+                <br><br>
+                ADDRESS : shalby hospital Opp karnavati club, Sarkhej - Gandhinagar Hwy, Ahmedabad, Gujarat 380015
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Dhruv Thakkar - Psychiatrist (Gold Medalist)
+              </h4><br>
+              <p>
+                CONTACT : 070468 12233
+                <br><br>
+                WEBSITE : <a href="https://talktodrdhruv.business.site/">
+                  https://talktodrdhruv.business.site/
+                </a>
+                <br><br>
+                ADDRESS : 306, Shukan Mall, GJ SH 41, near Visat Circle, Motera, Ahmedabad, Gujarat 380005
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr.Keyur Panchal
+              </h4><br>
+              <p>
+                CONTACT : 099988 22244
+                <br><br>
+                WEBSITE : <a href="psychiatristahmedabad.com">
+                  psychiatristahmedabad.com
+                </a>
+                <br><br>
+                ADDRESS : First Floor, OPD Wing, SAL Hospital, Drive In Rd, opp. Doordarshan Tower, Thaltej, Ahmedabad,
+                Gujarat 380054
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Sarthak Dave
+              </h4><br>
+              <p>
+                CONTACT : 075679 03030
+                <br><br>
+
+                ADDRESS : 301, Mahakant Complex, opposite V.S hospital Near Kapadia guest house, Ellisbridge, Paldi,
+                Ahmedabad, Gujarat 380006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Mrugesh Vaishnav
+              </h4><br>
+              <p>
+                CONTACT : 084607 83522
+                <br><br>
+
+                ADDRESS : 1st Floor Karnavati Hospital Building, Opp Town Hall, Riverfront Flower Park Roa, Ashram Rd,
+                Ellisbridge, Ahmedabad, Gujarat 380006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Dharmesh Patel
+              </h4><br>
+              <p>
+                CONTACT : 098243 17830
+                <br><br>
+                WEBSITE : <a href="https://www.gipshospital.com/">
+                  https://www.gipshospital.com/
+                </a>
+                <br><br>
+                ADDRESS : GIPS Psychiatric Clinic & Deaddiction center, 1st floor, Dev complex Parimal garden cross
+                road, Ambawadi, Ellisbridge, Ahmedabad, Gujarat 380006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr.Mayank Agrawal
+              </h4><br>
+              <p>
+                CONTACT : 097375 40685
+                <br><br>
+                WEBSITE : <a href="drmayankagrawal.com">drmayankagrawal.com
+
+                </a>
+                <br><br>
+                ADDRESS : 202 milestone Atlantis, someshwara BRTS junction University, Udhana - Magdalla Rd, Vesu,
+                Surat, Gujarat 395007
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Hansal Bhachech
+              </h4><br>
+              <p>
+                CONTACT : 079 2543 0575
+                <br><br>
+                WEBSITE : <a href="http://www.malefemale.in/">
+                  http://www.malefemale.in/
+                </a>
+                <br><br>
+                ADDRESS : Santvan, 211, Sheetal Plaza,, Nr Rambag BRTS bus stop,, Maninagar, Ahmedabad, Gujarat 380028
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                GIPS Hospital and De-addiction Centre
+              </h4><br>
+              <p>
+                CONTACT : 079 2660 8485
+                <br><br>
+                WEBSITE : <a href="https://www.gipshospital.com/">https://www.gipshospital.com/
+
+                </a>
+                <br><br>
+                ADDRESS : 1st Floor, DEV Complex, On Parimal Garden Cross Road, Ambawadi, Ellisbridge, Ahmedabad,
+                Gujarat 380006
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Jeet Nadpara ( Psychiatrist Vapi )
+              </h4><br>
+              <p>
+
+                WEBSITE : <a href="https://shantmann.com/">https://shantmann.com/
+
+                </a>
+                <br><br>
+                ADDRESS : 103, Status Business Hub, Behind Federal Bank, Opp Jeevandeep Hospital, Gunjan, Phase 3, GIDC,
+                Vapi, Gujarat 396145
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20goa&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="8 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Haryana</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Amit Bansal
+              </h4><br>
+              <p>
+                CONTACT : 099917 85339
+                <br><br>
+                WEBSITE : <a href="https://neuropsychiatrist.wixsite.com/karnal">
+                  https://neuropsychiatrist.wixsite.com/karnal
+                </a>
+                <br><br>
+                ADDRESS : Bansal Clinic, 15, Purushottam Garden, Doctors Lane, Lane Adjacent To, Chandranchal Banquet
+                Hall, Kunjpura Road, Karnal, near Vishal Mega Mart, Karnal, Haryana 132001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Yadav Neuropsychiatry Centre
+              </h4><br>
+              <p>
+                CONTACT : 098718 00599
+                <br><br>
+                WEBSITE : <a href="https://www.yadavpsychiatrycentre.com/">
+                  https://www.yadavpsychiatrycentre.com/
+                </a>
+                <br><br>
+                ADDRESS : Shop No 5 & 6, MCG Commercial Centre New Colony More, Old Railway Rd, near Prem Mandir,
+                Gurugram, Haryana 122001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                DR SACHIN KAUSHIK's MIND PEACE PSYCHIATRIST
+              </h4><br>
+              <p>
+                CONTACT : 099883 69933
+                <br><br>
+
+                ADDRESS : SCO 137,1st Floor,Sector 14,Near Raffles Hospital, Haryana 134109
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Healthy Mind Clinic
+              </h4><br>
+              <p>
+                CONTACT : 099963 85291
+                <br><br>
+                WEBSITE : <a href="drrajivmahi.com">
+                  drrajivmahi.com
+                </a>
+                <br><br>
+                ADDRESS : 63 L, Model Town, Behind Ambala Club, Ambala, Haryana 134003
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Shruti
+              </h4><br>
+              <p>
+
+                WEBSITE : <a href="https://bestpsychiatristingurgaondrshruti.business.site/">
+                  https://bestpsychiatristingurgaondrshruti.business.site/
+                </a>
+                <br><br>
+                ADDRESS : Signature hospital, Sector 37D, Gurugram, Haryana 122001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Abhishek Chugh Neuro Mind Clinic
+              </h4><br>
+              <p>
+                CONTACT : 075071 75401
+                <br><br>
+                WEBSITE : <a href="https://drabhishekchugh.in/">
+                  https://drabhishekchugh.in/
+                </a>
+
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Shubham Mehta
+              </h4><br>
+              <p>
+                CONTACT : 070822 33608
+                <br><br>
+
+                ADDRESS : 107-S, First Floor, Gurudwara Rd, near Sharda Hospital, Model Town, Hisar, Haryana 125005
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Rahul Chandhok
+              </h4><br>
+              <p>
+                CONTACT : 098181 20579
+                <br><br>
+                WEBSITE : <a href="http://drchandhok.com/naya/">
+                  http://drchandhok.com/naya/
+                </a>
+                <br><br>
+                ADDRESS : Shop No. 37-21A, HUDA Market, Sector 21 A, Near Bank of India, Faridabad, 121010
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Ashish Mittal, MD (AIIMS)
+              </h4><br>
+              <p>
+                CONTACT : 098109 71776
+                <br><br>
+                WEBSITE : <a href="http://99doctor.com/index.html">
+                  http://99doctor.com/index.html
+                </a>
+                <br><br>
+                ADDRESS : Second Floor, 248, The Sapphire Mall, Behind Omaxe city centre, Sector 49 Opposite Orchid
+                Petals society, Sohna Rd, Gurugram, Haryana 122001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Anil Yadav MD, (AIIMS)
+              </h4><br>
+              <p>
+                CONTACT : 083750 03702
+                <br><br>
+                WEBSITE : <a href="dranilyadav.com">
+                  dranilyadav.com
+                </a>
+                <br><br>
+                ADDRESS : 966, Sector 51 Rd, Sector 51, Gurugram, Haryana 122018
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter ">
+
+            <div class="gmap_canvas "><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20HARIYANA&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="9 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Himachal Pradesh</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Himachal Psychiatry Clinic
+              </h4><br>
+              <p>
+                CONTACT : 0189 225 2150
+                <br><br>
+
+                ADDRESS : Mandi - Pathankot Rd, Nagrota Bagwan, Himachal Pradesh 176047
+              </p>
+
+            </li>
+
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr D S Puri
+              </h4><br>
+              <p>
+
+                ADDRESS : Bemloi, Shimla, Himachal Pradesh 171001
+              </p>
+
+            </li>
+
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Neelkanth Hospital
+              </h4><br>
+              <p>
+                CONTACT : 082787 26347
+                <br><br>
+                WEBSITE : <a href="http://hospitalneelkanth.com/">
+                  http://hospitalneelkanth.com/
+                </a>
+                <br><br>
+                ADDRESS : 93/1, Palace Colony Rd, Palace Colony, Mandi, Himachal Pradesh 175001
+              </p>
+
+            </li>
+
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Vivek Katoch Psychiatry Clinic
+              </h4><br>
+              <p>
+                CONTACT : 094182 46530
+                <br><br>
+
+                ADDRESS : Khas Khalet, Himachal Pradesh 176061
+              </p>
+
+            </li>
+
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Tapas - The Inner Reflection
+              </h4><br>
+              <p>
+                CONTACT : 097361 15050
+                <br><br>
+                WEBSITE : <a href="http://tapasclinic.com/">
+                  http://tapasclinic.com/
+                </a>
+                <br><br>
+                ADDRESS : First Floor - Govil Bhawan, Shimla -171001, opposite Hotel Himland, Himachal Pradesh 171001
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter ">
+            <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20HIMACHAL%20PRADESH&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="10 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Jharkhand</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Siddhartha Sinha
+              </h4><br>
+              <p>
+                WEBSITE : <a href="drsiddhartha.com">
+                  drsiddhartha.com
+                </a>
+                <br><br>
+                ADDRESS : Cheshire Home Road, Road no 22, opposite S K Gas Godown, Bariatu, Ranchi, Jharkhand 834009
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. SAYEED AKHTAR
+              </h4><br>
+              <p>
+                CONTACT : 089876 94786089876 94786
+                <br><br>
+                WEBSITE : <a href="http://www.beautifulmindclinicranchi.com/">
+                  http://www.beautifulmindclinicranchi.com/
+                </a>
+                <br><br>
+                ADDRESS : Near Sai Mandir, University Colony, Bariatu, Ranchi, Jharkhand 834009
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Ashish Soy
+              </h4><br>
+              <p>
+                CONTACT : 098355 13100
+                <br><br>
+                WEBSITE : <a href="http://www.psychiatristranchi.com/">
+                  http://www.psychiatristranchi.com/
+                </a>
+                <br><br>
+                ADDRESS : Kanke Rd, opposite premsons motors, Saket Nagar, Jawahar Nagar, Hatma, Ranchi, Jharkhand
+                834008
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                AAROGYAM
+              </h4><br>
+              <p>
+                CONTACT : 080026 34576
+                <br><br>
+
+                ADDRESS : Kanke Rd, beside CN Honda, near Kanke Bridge, Jhirga Toli, Gandhi Nagar, Ranchi, Jharkhand
+                834008
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Keshav jee
+              </h4><br>
+              <p>
+                CONTACT : 099390 09705
+                <br><br>
+
+                ADDRESS : Durga Mandir, opp. RIMS Gate, Chauhan Colony, Bariatu, Ranchi, Jharkhand 834009
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Pawan Kumar Barnwal
+              </h4><br>
+              <p>
+                CONTACT : 077659 12428
+                <br><br>
+                WEBSITE : <a href="https://www.facebook.com/Dr-Pawan-Kumar-Barnwal-134975383786648/">
+                  https://www.facebook.com/Dr-Pawan-Kumar-Barnwal-134975383786648/
+                </a>
+                <br><br>
+                ADDRESS : Near Firing Range, opp. First Mark School, Bariatu, Ranchi, Jharkhand 834009
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                S.K Medicals.
+              </h4><br>
+              <p>
+                CONTACT : 085215 95770
+                <br><br>
+                WEBSITE : <a href="https://skmedicals.business.site/">
+                  https://skmedicals.business.site/
+                </a>
+                <br><br>
+                ADDRESS : C/O Dr. Mukesh, GEL Church Complex, South K Sinha Lane, Mahatma Gandhi Main Rd, Ranchi,
+                Jharkhand 834001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. MAHESH HEMBRAM
+              </h4><br>
+              <p>
+                CONTACT : 092043 77421
+                <br><br>
+                WEBSITE : <a href="http://www.psymahesh.com/">
+                  http://www.psymahesh.com/
+                </a>
+                <br><br>
+                ADDRESS : House No. 20, Zone No. 1, Birsanagar, near Sunday Market, Jamshedpur, Jharkhand 831004
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. P.K. Choudhary
+              </h4><br>
+              <p>
+                CONTACT : 093347 00499
+                <br><br>
+
+                ADDRESS : M-13, Bariatu Rd, Near Premsons Motor, Bariatu Housing Colony, Ranchi, Jharkhand 834009
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Central Institute of Psychiatry
+              </h4><br>
+              <p>
+                CONTACT : 0651 245 1115
+                <br><br>
+                WEBSITE : <a href="https://cipranchi.nic.in/">
+                  https://cipranchi.nic.in/
+                </a>
+                <br><br>
+                ADDRESS : Patratoli, Kanke, Jharkhand 834006
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20jharkhand&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://123movies-to.org">123movies. net</a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="11 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Kerala</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Ravi Prakash
+              </h4><br>
+              <p>
+                CONTACT : 096205 52673
+                <br><br>
+                WEBSITE : <a href="lybrate.com">
+                  lybrate.com
+                </a>
+                <br><br>
+                ADDRESS : 3rd Floor; Municipal No. 3 , HMT LAYOUT Opposite to Chowdeshwari Bus stop, Mathikere Above Dr.
+                Lal's PathLab, Bengaluru, Karnataka 560054
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Safiya M S
+              </h4><br>
+              <p>
+                CONTACT : 099007 50017
+                <br><br>
+                WEBSITE : <a href="practo.com">
+                  practo.com
+                </a>
+                <br><br>
+                ADDRESS : #150/24, Kodigehalli Main Rd, near Trio World School, Sahakar Nagar, post, Bengaluru,
+                Karnataka 560092
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Antahkarana Clinic
+              </h4><br>
+              <p>
+                CONTACT : 088844 54480
+                <br><br>
+                WEBSITE : <a href="antahkarana.co.in">
+                  antahkarana.co.in
+                </a>
+                <br><br>
+                ADDRESS : 8th Main Road, #3036, 2nd Cross Rd, MCC B Block, Davanagere, Karnataka 577004
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Shivanand B Hiremath Psychiatrist
+              </h4><br>
+              <p>
+                CONTACT : 091488 56095
+                <br><br>
+                WEBSITE : <a href="http://aantharya.co.in/">
+                  http://aantharya.co.in/
+                </a>
+                <br><br>
+                ADDRESS : AANTHARYA Neuropsychiatric Centre B1-06, Nirvana Tradewinds, beside Mahila Vidyapeetha, Hosur,
+                Hubli, Karnataka 580021
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Reach Psychiatry (Dr. Meena G.)
+              </h4><br>
+              <p>
+                CONTACT : 080 4098 8156
+                <br><br>
+                WEBSITE : <a href="https://www.reachpsych.com/">
+                  https://www.reachpsych.com/
+                </a>
+                <br><br>
+                ADDRESS : 2nd block, 7th Main Road, 319, CMR Rd, HRBR Layout, Kalyan Nagar, Bengaluru, Karnataka 560043
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind and Brain
+              </h4><br>
+              <p>
+                CONTACT : 080 4376 1456
+                <br><br>
+                WEBSITE : <a href="mindandbrain.co.in">
+                  mindandbrain.co.in
+                </a>
+                <br><br>
+                ADDRESS : #150/24, Near Trio World School, Kodigehalli Main Rd, next to Sri Sai Krupa Hospital,
+                Bengaluru, Karnataka 560092
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                BR neuro psychiatry hospital
+              </h4><br>
+              <p>
+                CONTACT : 091600 86693
+                <br><br>
+
+                ADDRESS : H no 1165, 23 a, Aiwan-E-Shahi Area, Shambhognlli, Gulbarga, Karnataka 585102
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. MJ Thomas
+              </h4><br>
+              <p>
+                CONTACT : 098450 03762
+                <br><br>
+                WEBSITE : <a href="http://www.drmjthomas.com/">
+                  http://www.drmjthomas.com/
+                </a>
+                <br><br>
+                ADDRESS : No. 44/54, Sagar Hospital, 30th Cross, Swagath Rd, Tilak Nagar, Jayanagar, Bengaluru,
+                Karnataka 560041
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Manas Nursing Home
+              </h4><br>
+              <p>
+                CONTACT : 0836 237 2040
+                <br><br>
+                WEBSITE : <a href="http://www.manasnursinghome.com/">
+                  http://www.manasnursinghome.com/
+                </a>
+                <br><br>
+                ADDRESS : Manas Nursing Home, Prabhat Colony, Vidya Nagar, Hubli, Karnataka 580021
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Department of Psychiatry, NIMHANS
+              </h4><br>
+              <p>
+                CONTACT : 080 2699 5250
+                <br><br>
+                WEBSITE : <a href="http://nimhans.ac.in/psychiatry/">
+                  http://nimhans.ac.in/psychiatry/
+                </a>
+                <br><br>
+                ADDRESS : Hosur Rd, Hombegowda Nagar, Bengaluru, Karnataka 560029
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20karnataka&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://123movies-to.org">123movies. net</a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="12 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Kerala</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr C J Joseph, Brain and Mind Clinic
+              </h4><br>
+              <p>
+                CONTACT : 0484 267 5055
+                <br><br>
+                WEBSITE : <a href="http://www.brainandmindclinic.com/">
+                  http://www.brainandmindclinic.com/
+                </a>
+                <br><br>
+                ADDRESS : SH 1, Angamaly, Kerala 683572
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Metro Mind
+              </h4><br>
+              <p>
+                CONTACT : 073068 08867
+                <br><br>
+                WEBSITE : <a href="http://www.metromindhospital.com/">
+                  http://www.metromindhospital.com/
+                </a>
+                <br><br>
+                ADDRESS : Rajagiri Rd, Rajagiri P.O, South Kalamassery, Kalamassery, Kochi, Kerala 683104
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Somanath C.P
+              </h4><br>
+              <p>
+                CONTACT : 094955 81436
+                <br><br>
+                WEBSITE : <a href="http://drsomanathcp.com/">
+                  http://drsomanathcp.com/
+                </a>
+                <br><br>
+                ADDRESS : Sharanya House No X/600, Mavelipuram, Kakkanad, Kochi, Kerala 682030
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                MIBO Health & Happiness Care
+              </h4><br>
+              <p>
+                CONTACT : 094475 11479
+                <br><br>
+                WEBSITE : <a href="http://www.mibocare.com/">
+                  http://www.mibocare.com/
+                </a>
+                <br><br>
+                ADDRESS : KRRA 28, Kannanthodath Road, Devankulangara, Mamangalam, Edappally, Kochi, Kerala 682024
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Harish P
+              </h4><br>
+              <p>
+                CONTACT : 094470 51517
+                <br><br>
+                WEBSITE : <a href="healthplix.com">
+                  healthplix.com
+                </a>
+                <br><br>
+                ADDRESS : ITHAKA House No.. 140 - A, Devi Nagar, Thiruvananthapuram, Kerala 695005
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Nakkada Mission Hospital
+              </h4><br>
+              <p>
+                CONTACT : 0469 260 0360
+                <br><br>
+                WEBSITE : <a href="http://www.nakkadamissionhospital.com/">
+                  http://www.nakkadamissionhospital.com/
+                </a>
+                <br><br>
+                ADDRESS : Ramanchira, Thiruvalla, Kerala 689101
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Varghese P Punnoose
+              </h4><br>
+              <p>
+                CONTACT : 094470 85734
+                <br><br>
+                WEBSITE : <a href="http://neurosciencemind.com/">
+                  http://neurosciencemind.com/
+                </a>
+                <br><br>
+                ADDRESS : Panickasseril House, Malloor Lane, Behind Hotel AIDA, Kottayam, Kerala 686013
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Psychiatrist Dr Manu N A
+              </h4><br>
+              <p>
+                CONTACT : 098958 92506
+                <br><br>
+
+                ADDRESS : Durga clinic, near divine hospital, Wadakkanchery, Kerala 680582
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Dawny Counselling and Wellness Clinic
+              </h4><br>
+              <p>
+
+                WEBSITE : <a href=" lybrate.com">
+                  lybrate.com
+                </a>
+                <br><br>
+                ADDRESS : medical college, House TGRA-36, Medical College Kumarapuram Rd, opposite Shikshak Sadan,
+                Tagore Gardens, Thiruvananthapuram, Kerala 695011
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Nair's Hospital
+              </h4><br>
+              <p>
+                CONTACT : 098470 22677
+                <br><br>
+                WEBSITE : <a href="nairshospital.in">
+                  nairshospital.in
+                </a>
+                <br><br>
+                ADDRESS : Kannadikkadu, NH 66, Maradu, Kochi, Kerala 682304
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20kERALA&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://123movies-to.org">123movies. net</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="13 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Madhya Pradesh</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Vaibhav Dubey
+              </h4><br>
+              <p>
+                CONTACT : 082696 88901
+                <br><br>
+                WEBSITE : <a href="mentalhealthmantra.com">
+                  mentalhealthmantra.com
+                </a>
+                <br><br>
+                ADDRESS : 30, Civil lines,Between Kilol Park Petrol Pump And Polytechnic Square, near Angithi
+                Restaurant, Bhopal, Madhya Pradesh 462001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Mitali Soni Loya
+              </h4><br>
+              <p>
+                CONTACT : 088174 75079
+                <br><br>
+                WEBSITE : <a href="http://www.mentalhealthbhopal.com/">
+                  http://www.mentalhealthbhopal.com/
+                </a>
+                <br><br>
+                ADDRESS : 10 Ramanand Nagar, Lalghati Square, Near, Bhopal, Madhya Pradesh 462023
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Satyakant Trivedi
+              </h4><br>
+              <p>
+                CONTACT : 0755 408 6000
+                <br><br>
+                WEBSITE : <a href="psychiatristinbhopal.com">
+                  psychiatristinbhopal.com
+                </a>
+                <br><br>
+                ADDRESS : Shahpura, Bansal Hospital, Bhopal, Madhya Pradesh 462016
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Mitali Soni Loya
+              </h4><br>
+              <p>
+                CONTACT : 088174 75079
+                <br><br>
+                WEBSITE : <a href="mentalhealthbhopal.com">
+                  mentalhealthbhopal.com
+                </a>
+                <br><br>
+                ADDRESS : 10 Ramanand Nagar, Lalghati Square, Near, Bhopal, Madhya Pradesh 462023
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Satyakant Trivedi
+              </h4><br>
+              <p>
+                CONTACT : 0755 408 6000
+                <br><br>
+                WEBSITE : <a href="https://www.psychiatristinbhopal.com/">
+                  https://www.psychiatristinbhopal.com/
+                </a>
+                <br><br>
+                ADDRESS : Shahpura, Bansal Hospital, Bhopal, Madhya Pradesh 462016
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Manish Borasi
+              </h4><br>
+              <p>
+                CONTACT : 075090 33394
+                <br><br>
+                WEBSITE : <a href="http://www.serenitymindcare.com/">
+                  http://www.serenitymindcare.com/
+                </a>
+                <br><br>
+                ADDRESS : MIG-58 Bhadbhada rd BEHIND ASTHA HOSPITAL, Jawahar Chowk, MLA Quarters, OLD, Bhopal, Madhya
+                Pradesh 462003
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Ashutosh Singh
+              </h4><br>
+              <p>
+                CONTACT : 078690 88193
+                <br><br>
+                WEBSITE : <a href="practo.com">
+                  practo.com
+                </a>
+                <br><br>
+                ADDRESS : Apollo Hospitals, Scheme No 74-C, Sector-D, Vijay Nagar, Indore, Madhya Pradesh 452010
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Swapnil Agrawal-Mind Clinic
+              </h4><br>
+              <p>
+                CONTACT : 076111 51110
+                <br><br>
+                WEBSITE : <a href="mindclinic.club">
+                  mindclinic.club
+                </a>
+                <br><br>
+                ADDRESS : Home Science College Rd, in front of Ashish Hospital, Napier Town, Jabalpur, Madhya Pradesh
+                482001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Srikanth Reddy
+              </h4><br>
+              <p>
+                CONTACT : 097521 14020
+                <br><br>
+                WEBSITE : <a href="drsrikanthreddy.com">
+                  drsrikanthreddy.com
+                </a>
+                <br><br>
+                ADDRESS : 14-UG, Vijaynagar Sq Besides G Sachhanand Kala Mandir, Cross Roads Building, Madhya Pradesh
+                452010
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Pritesh Goutam-Nirvana Clinic
+              </h4><br>
+              <p>
+                CONTACT : 098938 53317
+                <br><br>
+                WEBSITE : <a href="http://www.drpriteshgoutam.com/">
+                  http://www.drpriteshgoutam.com/
+                </a>
+                <br><br>
+                ADDRESS : UG 6-7, Kartar Arcade, Near Capital Petrol Pump, Raisen Road,, Bhopal, Madhya Pradesh 462023
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20MADHYA%20PRADESH&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://123movies-to.org">123movies. net</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="14 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Maharashtra/h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Manish Bajpayee
+              </h4><br>
+              <p>
+                CONTACT : 099703 14487
+                <br><br>
+                WEBSITE : <a href="manishbajpayee.com">
+                  manishbajpayee.com
+                </a>
+                <br><br>
+                ADDRESS : Ruby Hall Clinic Floor 1, Opp Jhulelal Mandir Near CRPS Ground Near kedari Petrol Pump Azad
+                Nagar, Kondhwa, Pune, Maharashtra 411040
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Ravi Abhyankar
+              </h4><br>
+              <p>
+                CONTACT : 022 2407 1501
+                <br><br>
+                WEBSITE : <a href="http://raviabhyankar.com/">
+                  http://raviabhyankar.com/
+                </a>
+                <br><br>
+                ADDRESS : Manas Hospital, Chaman house, 34, Main Road, Opp. H P Petrol Pump, Next to, Sion Bus Depot,,
+                Sion, Mumbai, Maharashtra 400022
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr.Dhananjay Ashturkar
+              </h4><br>
+              <p>
+                CONTACT : 080 4803 4044
+                <br><br>
+                WEBSITE : <a href="psychiatristdoctorpcmc.com">
+                  psychiatristdoctorpcmc.com
+                </a>
+                <br><br>
+                ADDRESS : Aastha Hospital, Udyam Nagari Road, Station, Pimpri-Chinchwad, Maharashtra 411033
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Pratap Panhale, Psychiatrist
+              </h4><br>
+              <p>
+                CONTACT : 02382 228 144
+                <br><br>
+                WEBSITE : <a href="https://dr-pratap-panhale-psychiatrist.business.site/">
+                  https://dr-pratap-panhale-psychiatrist.business.site/
+                </a>
+                <br><br>
+                ADDRESS : Bisen Nagar, New renapur naka Ambajogai Road, behind Panchaganga bar and restauran,
+                Maharashtra 413531
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Bhoge's Manovishwa Psychiatric and Deaddiction clinic
+              </h4><br>
+              <p>
+                CONTACT : 091306 21531
+                <br><br>
+                WEBSITE : <a href="http://www.manovishwaclinic.com/">
+                  http://www.manovishwaclinic.com/
+                </a>
+                <br><br>
+                ADDRESS : Sudhakar Complex, Rupa Bhavani Rd, near Sharma Sweets, Solapur, Maharashtra 413003
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mumbai Psychiatry Clinics (MPC)
+              </h4><br>
+              <p>
+                CONTACT : 086554 62323
+                <br><br>
+                WEBSITE : <a href="healthplix.com">
+                  healthplix.com
+                </a>
+                <br><br>
+                ADDRESS : Shop No. 1028, first floor ,Heera Panna Shopping Center , behind Wadhwa, Solitaire Towers ,
+                Hiranandani Gardens, Powai , Mumbai, Maharashtra 400076
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Niket Kasar
+              </h4><br>
+              <p>
+                CONTACT : 098237 83038
+                <br><br>
+                WEBSITE : <a href="psychiatristinpune.com">
+                  psychiatristinpune.com
+                </a>
+                <br><br>
+                ADDRESS : Near, 1'st Floor, Shivmangal Apts., 1535 Heera Photo Studio, Lokmanya Bal Gangadhar Tilak Rd,
+                Pune, Maharashtra 411030
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Ghuge's Sukhkarta MindCare Clinic
+              </h4><br>
+              <p>
+                CONTACT : 079776 37321
+                <br><br>
+                WEBSITE : <a href="https://dr-ghuges-sukhkarta-mindcare-clinic-best.business.site/">
+                  https://dr-ghuges-sukhkarta-mindcare-clinic-best.business.site/
+                </a>
+                <br><br>
+                ADDRESS : N-9, M-2 Road, M-2 Bus Stop, Opp. Farshi Ground, Gujrathi Hospital, TV Centre Rd, beside
+                Pankaj Medical, Hudco, Aurangabad, Maharashtra 431001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Janseva psychiatry hospital center
+              </h4><br>
+              <p>
+                CONTACT : 089756 78303
+                <br><br>
+                WEBSITE : <a
+                  href="https://janseva-psychiatry-hospital-center.business.site/?utm_source=gmb&utm_medium=referral">
+                  https://janseva-psychiatry-hospital-center.business.site/?utm_source=gmb&utm_medium=referral
+                </a>
+                <br><br>
+                ADDRESS : Navghan College Rd, near mitra nagar, Mitra Nagar, Datta Nagar, Beed, Maharashtra 431122
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Psychiatry Clinic
+              </h4><br>
+              <p>
+                CONTACT : 0712 246 9943
+                <br><br>
+                WEBSITE : <a href="http://www.manoyogapsychiatryclinic.com/">
+                  http://www.manoyogapsychiatryclinic.com/
+                </a>
+                <br><br>
+                ADDRESS : Chamber 1C, 1st Floot, Hyatt Medicare, Opposite getwell hospital, dhantoli, nagpur, Dhantoli,
+                Nagpur, Maharashtra 440012
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                The Beautiful Mind
+              </h4><br>
+              <p>
+                CONTACT : 082378 24685
+                <br><br>
+                WEBSITE : <a href="http://www.thebeautifulmind.co.in/">
+                  http://www.thebeautifulmind.co.in/
+                </a>
+                <br><br>
+                ADDRESS : Dr Sumit Chandak, RamVan Casa, Pan Card Club Rd, Baner, Pune, Maharashtra 411045
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter ">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20MAHARASTRA&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://123movies-to.org">123movies. net</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="17 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Mizoram</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Kulikawn Hospital
+              </h4><br>
+              <p>
+                ADDRESS : Salem Veng, Aizawl, Mizoram 796005
+              </p>
+
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiarists%20in%20mizoram&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+  <div class="16 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Meghalaya</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind And Wellness Clinic
+              </h4><br>
+              <p>
+                CONTACT : 084140 84269
+                <br><br>
+                WEBSITE : <a href="http://mindwellnessclinic.com/">
+                  http://mindwellnessclinic.com/
+                </a>
+                <br><br>
+                ADDRESS : Marketview Building, First floor, Market, near SBI Branch, Laitumkhrah, Shillong, Meghalaya
+                793003
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Shillong Counselling Services
+              </h4><br>
+              <p>
+                CONTACT : 089745 73670
+                <br><br>
+
+                ADDRESS : House No LB 40, Nongthymmai, Jylli Shop Near Hamlet Cars, opposite Eriben Presbyterian School,
+                Shillong, Meghalaya 793014
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                METANOIA COUNSELLING SERVICES
+              </h4><br>
+              <p>
+
+                ADDRESS : Upland Rd, Nongkynrih, Laitumkhrah, Shillong, Meghalaya 793003
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiarists%20in%20MEGHALAYA&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="15 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Mizoram</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Kulikawn Hospital
+              </h4><br>
+              <p>
+                ADDRESS : Salem Veng, Aizawl, Mizoram 796005
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mizoram Health Care
+              </h4><br>
+              <p>
+
+                ADDRESS : Salem Veng, Aizawl, Mizoram 796005
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dept. Of Psychiatry RIMS
+              </h4><br>
+              <p>
+
+                WEBSITE : <a href="http://www.rims.edu.in/Departments/psychiatry.htm">
+                  http://www.rims.edu.in/Departments/psychiatry.htm
+                </a>
+                <br><br>
+                ADDRESS : RIMS Road, Lamphelpat, Imphal, Manipur 795004
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                National Health Mission
+              </h4><br>
+              <p>
+
+                WEBSITE : <a href="http://nhmmizoram.org/">
+                  http://nhmmizoram.org/
+                </a>
+                <br><br>
+                ADDRESS : Dinthar, Temple Road, Vaivakawn, Aizawl, Mizoram 796001
+              </p>
+
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiarists%20in%20Mizoram&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="18 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Nagaland</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind & Health
+              </h4><br>
+              <p>
+                CONTACT : 03862 224 048
+                <br><br>
+
+                ADDRESS : Flyover, Bank Colony, Police Colony, Dimapur, Nagaland 797112
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Imcha Jamir
+              </h4><br>
+              <p>
+
+                ADDRESS : Khermahal, Dimapur, Nagaland 797112
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Faith Hospital and Institute of Medical Sciences
+              </h4><br>
+              <p>
+                CONTACT : 090777 47777
+                <br><br>
+                WEBSITE : <a href="https://www.faithhospital.co.in/">
+                  https://www.faithhospital.co.in/
+                </a>
+                <br><br>
+                ADDRESS : Old Sewak Road, Dhobinullah, Dimapur, Nagaland 797112
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiarists%20in%20NAGALAND&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="19 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Odissa </h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr samrat kar Psychiatrist
+              </h4><br>
+              <p>
+                CONTACT : 093372 63406
+                <br><br>
+                WEBSITE : <a href="http://www.psychiatristodisha.com/">
+                  http://www.psychiatristodisha.com/
+                </a>
+                <br><br>
+                ADDRESS : Purighat Road The Brain and Research Center Upper Telenga Bazar, Odisha 753009
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Suvendu Narayan Mishra
+              </h4><br>
+              <p>
+                CONTACT : 090789 79580
+                <br><br>
+                WEBSITE : <a href="http://www.drsuvendunarayanmishra.com/">
+                  http://www.drsuvendunarayanmishra.com/
+                </a>
+                <br><br>
+                ADDRESS : In between Acharya Vihar Traffic & Jayadev Vihar, 1St Left After Acharya Vihar Traffic,
+                Serenity Clinic, Plot No. L, 3/160
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Amrit Pattojoshi's Clinic
+              </h4><br>
+              <p>
+                CONTACT : 099372 72369
+                <br><br>
+                WEBSITE : <a href="http://www.dramritpattojoshi.in/">
+                  http://www.dramritpattojoshi.in/
+                </a>
+                <br><br>
+                ADDRESS : Plot no 14, Bhouma nagar, Unit 4,, Unit 4 reliance fresh, Bhubaneswar, Odisha 751001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr.Satyakam Mohapatra
+              </h4><br>
+              <p>
+                CONTACT : 088952 93997
+                <br><br>
+                WEBSITE : <a href="http://www.skmpsychiatry.com/">
+                  http://www.skmpsychiatry.com/
+                </a>
+                <br><br>
+                ADDRESS : BPL DIAGNOSTIC, KATHAGOLA SAHI, in front of GUDLUCK HOSPITAL, Manglabag, Cuttack, Odisha
+                753007
+              </p>
+
+            </li>
+
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Ashrumochan Sahoo
+              </h4><br>
+              <p>
+                CONTACT : 0671 230 3585
+                <br><br>
+                WEBSITE : <a href="http://psychiatristashru.com/">
+                  http://psychiatristashru.com/
+                </a>
+                <br><br>
+                ADDRESS : UCO Bank ATM, Kathagola Rd, Manglabag, Near, Cuttack, Odisha 753001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Mihir Ranjan Nayak (M.D. Psychiatrist)
+              </h4><br>
+              <p>
+                CONTACT : 094371 63071
+                <br><br>
+
+                ADDRESS : Jagannath Patholab, Near Gupta Medical Hall, Back side of Shiv mandir Burla, Odisha 768017,
+                mob-9937992606
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Mihir Ranjan Nayak (M.D Psychiatry)
+              </h4><br>
+              <p>
+                CONTACT : 094371 63071
+                <br><br>
+
+                ADDRESS : Samaleswari Medical Store, Bharti Chowk, Milan Vihar, Bargarh, Odisha 768028
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Nihar Ranjan Rath clinic
+              </h4><br>
+              <p>
+                CONTACT : 083289 62539
+                <br><br>
+                WEBSITE : <a href="http://drniharrath.com/">
+                  http://drniharrath.com/
+                </a>
+                <br><br>
+                ADDRESS : Hanuman Temple Ln, Mahanadi Vihar, Cuttack, Odisha 753004
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Surjeet Sahoo
+              </h4><br>
+              <p>
+                CONTACT : 094370 80574
+                <br><br>
+
+                ADDRESS : Keshari Cinema Hall, Plot No.4, BDA Ln, Ekamra Vihar, Kharabela Nagar, Bhubaneswar, Odisha
+                751001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr.S.N.Parida
+              </h4><br>
+              <p>
+                CONTACT : 094370 61662
+                <br><br>
+
+                ADDRESS : Power House Colony, Raj Bhavan Colony, Bhubaneswar, Odisha 751008
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiarists%20in%20odisha&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="20 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Punjab</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Gulbahar S Sidhu
+              </h4><br>
+              <p>
+                CONTACT : 098156 28887
+                <br><br>
+
+                ADDRESS : H.no 73-b, Gurjaipal Nagar, Punjab 144001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Priyanka Kalra
+              </h4><br>
+              <p>
+                CONTACT : 095010 32237
+                <br><br>
+                WEBSITE : <a href="https://kalrapriyanka.com/">
+                  https://kalrapriyanka.com/
+                </a>
+                <br><br>
+                ADDRESS : 127, I - Block, Sarabha Nagar, Ludhiana, Punjab 141002
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Manas Hospital
+              </h4><br>
+              <p>
+                CONTACT : 062832 84774
+                <br><br>
+                WEBSITE : <a href="https://manashospitals.com/">
+                  https://manashospitals.com/
+                </a>
+                <br><br>
+                ADDRESS : Aarti Chowk, near hotel onn , yes bank turn, near neurociti, Gobind Nagar, Ludhiana, Punjab
+                141001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind Plus Retreat
+              </h4><br>
+              <p>
+                CONTACT : 099888 88971
+                <br><br>
+                WEBSITE : <a href="https://www.mind.plus/">
+                  https://www.mind.plus/
+                </a>
+                <br><br>
+                ADDRESS : Village Raul, Rara Sahib Road, Ludhiana, Punjab 141421
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Harpreet Singh
+              </h4><br>
+              <p>
+                CONTACT : 099146 01459
+                <br><br>
+                WEBSITE : <a href="https://drharpreetsinghwalia.business.site/?utm_source=gmb&utm_medium=referral">
+                  https://drharpreetsinghwalia.business.site/?utm_source=gmb&utm_medium=referral
+                </a>
+                <br><br>
+                ADDRESS : House No.-14, Sector-2, Guru Gian Vihar, Near Urban Estate Phase-1, Ludhiana, Punjab 141013
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                K.K. HOSPITAL
+              </h4><br>
+              <p>
+                CONTACT : 0161 502 2021
+                <br><br>
+
+                ADDRESS : 962 Baba Than Singh, Chowk, CMC Rd, Ludhiana, Punjab 141008
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Manosantulan Psychiatry Hospital
+              </h4><br>
+              <p>
+                CONTACT : 097803 58615
+                <br><br>
+                WEBSITE : <a href="https://manosantulan-psychiatry-and-de-addiction-hospital.business.site/">
+                  https://manosantulan-psychiatry-and-de-addiction-hospital.business.site/
+                </a>
+                <br><br>
+                ADDRESS : Samadhi, Narottam Nagar Rd, Khanna, Punjab 141401
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Harpreet Singh
+              </h4><br>
+              <p>
+                CONTACT : 099146 01459
+                <br><br>
+
+                ADDRESS : OPD NO.-20, MOHANDAI OSWAL HOSPITAL GT ROAD, SHERPUR BYE PASS, LUDHIANA-141009, Ludhiana,
+                Punjab 141009
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Ashoka Neuro-Psychiatric Hospital
+              </h4><br>
+              <p>
+                CONTACT : 070874 37556
+                <br><br>
+                WEBSITE : <a href="http://www.ashoka-hospital.in/">
+                  http://www.ashoka-hospital.in/
+                </a>
+                <br><br>
+                ADDRESS : Plot No 123, Opp T.V Studios, Shaheed Udham Singh Nagar, Jalandhar, Punjab 144002
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Jasmine Heer
+              </h4><br>
+              <p>
+                CONTACT : 098766 32473
+                <br><br>
+                WEBSITE : <a href="https://dr-jasmine-heer.business.site/">
+                  https://dr-jasmine-heer.business.site/
+                </a>
+                <br><br>
+                ADDRESS : 124, H Block, Sarabha Nagar, Ludhiana, Punjab 141001
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiarists%20in%20PUNJAB&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="21 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Rajasthan</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr D. S. Poonia
+              </h4><br>
+              <p>
+                CONTACT : 093525 72799
+                <br><br>
+                WEBSITE : <a href="http://www.mindroot.org/">
+                  http://www.mindroot.org/
+                </a>
+                <br><br>
+                ADDRESS : T12 A, Mahaveer Nagar I, Tonk Rd, near Sethi Hospital, Jaipur, 302018
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr BK Pushp(Saini)
+              </h4><br>
+              <p>
+                CONTACT : 094625 11173
+                <br><br>
+                WEBSITE : <a href="https://dr-bk-pushp-psychiatry-de-addiction-clinic.business.site/">
+                  https://dr-bk-pushp-psychiatry-de-addiction-clinic.business.site/
+                </a>
+                <br><br>
+                ADDRESS : Office no.L G 6 manglam fun square, Durga Nursery Road, Shiv Park Colony, Udaipur, Rajasthan
+                313001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Sanjay Jain
+              </h4><br>
+              <p>
+                CONTACT : 095090 29702
+                <br><br>
+                WEBSITE : <a href="psychiatristjaipur.com">
+                  psychiatristjaipur.com
+                </a>
+                <br><br>
+                ADDRESS : 31, Mangal Vihar, Gopalpura Bypass Rd, near Ridhi Sidhi Chauraha, Jaipur, Rajasthan 302018
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Aarti Midha
+              </h4><br>
+              <p>
+                CONTACT : 095713 46147
+                <br><br>
+                WEBSITE : <a href="mindlisten.com">
+                  mindlisten.com
+                </a>
+                <br><br>
+                ADDRESS : 33 A ,Vidyut Nagar, B block, Ajmer Rd, near Purani Chungi, Jaipur, Rajasthan 302021
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                DR KRISHNA KANWAL
+              </h4><br>
+              <p>
+                CONTACT : 088909 07447
+                <br><br>
+
+                ADDRESS : B-2 RajaPark,Govind Marg,Opposite Pink Square Mall, Jaipur, Rajasthan 302004
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Tushar Kant
+              </h4><br>
+              <p>
+                CONTACT : 099509 99980
+                <br><br>
+                WEBSITE : <a href="http://www.drtusharkant.com/">
+                  http://www.drtusharkant.com/
+                </a>
+                <br><br>
+                ADDRESS : Plot No. 4, Near Akshardham Mandir Chitrakoot, Vaishali Nagar, Jaipur, Rajasthan 302020
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Agrawal Neuro Psychiatry Center
+              </h4><br>
+              <p>
+                CONTACT : 0744 243 1217
+                <br><br>
+                WEBSITE : <a href="http://www.drmlagrawal.in/">
+                  http://www.drmlagrawal.in/
+                </a>
+                <br><br>
+                ADDRESS : A-11, New Jawahar Nagar, Talwandi, Kota, Rajasthan 324005
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Manomaya Holistic mental health centre
+              </h4><br>
+              <p>
+                CONTACT : 096948 52227
+                <br><br>
+                WEBSITE : <a href="manomaya.in">
+                  manomaya.in
+                </a>
+                <br><br>
+                ADDRESS : 79, panchsheel Enclave, JLN Marg, Jawahar Circle, Jaipur, Rajasthan 302018
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Charan SinghDr Charan Singh
+              </h4><br>
+              <p>
+                CONTACT : 078919 67931
+                <br><br>
+                WEBSITE : <a href="https://dr-charan-singh-jilowa-mental-health.business.site/">
+                  https://dr-charan-singh-jilowa-mental-health.business.site/
+                </a>
+                <br><br>
+                ADDRESS : 185 A, Parshwanath Colony, Vaishali Nagar, Ajmer, Rajasthan 305001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Manash Hospital
+              </h4><br>
+              <p>
+                CONTACT : 076654 88333
+                <br><br>
+                WEBSITE : <a href="http://manashhospital.com/">
+                  http://manashhospital.com/
+                </a>
+                <br><br>
+                ADDRESS : Office (J, K-3, 2, near Resonance Head, New Jawahar Nagar, Kota, Rajasthan 324005
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiarists%20in%20rajasthan&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="22 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Sikkim</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Anup Pradhan
+              </h4><br>
+              <p>
+
+                WEBSITE : <a href="https://anup-pradhan.business.site/">
+                  https://anup-pradhan.business.site/
+                </a>
+                <br><br>
+                ADDRESS : NH 31A, Gairi Gaon, M.P.Golai, Tadong, Gangtok, Sikkim 737102
+              </p>
+
+            </li>
+
+          </ul>
+
+          <li class="list-group-item ">
+            <h4 style="color: rgb(255, 123, 0);">
+              Dr. B.n Sharma
+            </h4><br>
+            <p>
+
+              ADDRESS : Arithang, Gangtok, Sikkim 737101Arithang, Gangtok, Sikkim 737101
+            </p>
+
+          </li>
+
+          <li class="list-group-item ">
+            <h4 style="color: rgb(255, 123, 0);">
+              Dr Mohonish N Chettri
+            </h4><br>
+            <p>
+              CONTACT : 078726 06644
+              <br><br>
+              WEBSITE : <a href="https://prescrip.page.link/be42cSsPBK5JPqxQA">
+                https://prescrip.page.link/be42cSsPBK5JPqxQA
+              </a>
+              <br><br>
+              ADDRESS : Sichey School Rd, Sungava, Gangtok, Sikkim 737101
+            </p>
+
+          </li>
+
+          <li class="list-group-item ">
+            <h4 style="color: rgb(255, 123, 0);">
+              Ruchi Diagnostic Clinic
+            </h4><br>
+            <p>
+              CONTACT : 03592 203 333
+              <br><br>
+              WEBSITE : <a href="bludtest.com">
+                bludtest.com
+              </a>
+              <br><br>
+              ADDRESS : N. H. Way, behind Telephone Exchange, Arithang, Gangtok, Sikkim 737101
+            </p>
+
+          </li>
+
+          <li class="list-group-item ">
+            <h4 style="color: rgb(255, 123, 0);">
+              Care And Cure Polyclinic
+            </h4><br>
+            <p>
+              CONTACT : 03592 231 789
+              <br><br>
+
+              ADDRESS : Tadong, Gangtok, Sikkim 737102
+            </p>
+
+          </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiarists%20in%20SIKKIM&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="23 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Tamil Nadu</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                AGAM Wellness Clinic
+              </h4><br>
+              <p>
+                CONTACT : 095003 28282
+                <br><br>
+                WEBSITE : <a href="agamwellness.com">
+                  agamwellness.com
+                </a>
+                <br><br>
+                ADDRESS : R-13B, 3rd Main Road, Nolambur Phase 2, Mogappair west, Chennai, Tamil Nadu 600037
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. M. Rajeshwari. MBBS
+              </h4><br>
+              <p>
+                CONTACT : 0427 241 8664
+                <br><br>
+
+                ADDRESS : 2, 1, 167, Peramanur E St, Venkatasapuram, Sankar Nagar, Salem, Tamil Nadu 636007
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Rudhran clinic
+              </h4><br>
+              <p>
+                CONTACT : 044 2481 1140
+                <br><br>
+                WEBSITE : <a href="https://epidaurusmhc.wixsite.com/website">
+                  https://epidaurusmhc.wixsite.com/website
+                </a>
+                <br><br>
+                ADDRESS : No 12, Dr Subbarayan Nagar Main Road, Kodambakkam, Opp Samiyar Matam, Behind Hotel Brownstar
+                in Ambedkar Road, Chennai, Tamil Nadu 600024
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Ramya Sampath
+              </h4><br>
+              <p>
+                CONTACT : 098437 82262
+                <br><br>
+
+                ADDRESS : No.36, Nachiappan St, Mahalingapuram, Nungambakkam, Chennai, Tamil Nadu 600034
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Vivekananda Health Center
+              </h4><br>
+              <p>
+                CONTACT : 099425 37351
+                <br><br>
+
+                ADDRESS : Tamil Nagar, Karur Bypass Rd, opp. Jaisuryas dept.stores, Kollampalayam, Tamil Nadu 638002
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. KAVITHA M
+              </h4><br>
+              <p>
+                CONTACT : 1860 500 1066
+                <br><br>
+                WEBSITE : <a href="askapollo.com">
+                  askapollo.com
+                </a>
+                <br><br>
+                ADDRESS : Apollo Clinic No.1 & 2, Prakasam Salai, Valasaravakkam, Chennai, Tamil Nadu 600087
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Athma Hospitals And Research
+              </h4><br>
+              <p>
+                CONTACT : 0431 255 5666
+                <br><br>
+                WEBSITE : <a href="athmahospitals.com">
+                  athmahospitals.com
+                </a>
+                <br><br>
+                ADDRESS : No-12 B&C, 10th Cross St, East, Thillai Nagar, Tiruchirappalli, Tamil Nadu 620018
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Natchiyar Mind Care
+              </h4><br>
+              <p>
+                CONTACT : 097156 85000
+                <br><br>
+                WEBSITE : <a href="http://www.natchiyarmindcare.com/">
+                  http://www.natchiyarmindcare.com/
+                </a>
+                <br><br>
+                ADDRESS : 50 & 71, Kumaran St, Podhigai Lodge Opp Rd, Marudhamalai Adivaram, Adivaram, Tamil Nadu 641046
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Vazhikatti Mental Health Centre & Research Institute
+              </h4><br>
+              <p>
+                CONTACT : 098422 53053
+                <br><br>
+                WEBSITE : <a href="http://www.vazhikatti.com/">
+                  http://www.vazhikatti.com/
+                </a>
+                <br><br>
+                ADDRESS : 79, 80, 81A - Nehru Street, Behind Fun Republic Mall, Avinashi Rd, Peelamedu, Coimbatore,
+                Tamil Nadu 641004
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Aram Psychiatry Hospital
+              </h4><br>
+              <p>
+                CONTACT : 090470 97772
+                <br><br>
+                WEBSITE : <a href="http://aramhospital.com/">
+                  http://aramhospital.com/
+                </a>
+                <br><br>
+                ADDRESS : 21, 4th Cross Street, Vayalur Rd, Ramlinga Nagar, South Extension, Tiruchirappalli, Tamil Nadu
+                620017
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="464" height="395" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychyatrists%20in%20goa&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2torrentz.net">e torrentz</a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="24 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Telangana</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Samhita Psychiatry Hospital
+              </h4><br>
+              <p>
+                CONTACT : 091000 91111
+                <br><br>
+
+                ADDRESS : 6-1-276/a/7/6 , c/ o Manasa Hospital, Walker Town, Padmarao Nagar, Secunderabad, Telangana
+                500025
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Jyothirmayi MD - Psychiatrist & Psychotherapist
+              </h4><br>
+              <p>
+                CONTACT : 096766 45628
+                <br><br>
+                WEBSITE : <a href="http://www.drjyothirmayi.com/">
+                  http://www.drjyothirmayi.com/
+                </a>
+                <br><br>
+                ADDRESS : Care Hospitals, Old Mumbai Highway, Near Cyberabad Police Commissionerate, drjyothirmayi.com,
+                Hyderabad, Telangana 500032
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                People's Mind Clinic And Counselling Centre
+              </h4><br>
+              <p>
+                CONTACT : 091777 76472
+                <br><br>
+
+                ADDRESS : #2-1-133/2,BMR Complex, Lane Nallakunta, beside Fever Hospital, Hyderabad, Telangana 500044
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Disha Psychiatric Care
+              </h4><br>
+              <p>
+                CONTACT : 078937 21112
+                <br><br>
+                WEBSITE : <a href="https://www.dishapsycare.com/wp-content/hostinger-page-cache/_index.html">
+                  https://www.dishapsycare.com/wp-content/hostinger-page-cache/_index.html
+                </a>
+                <br><br>
+                ADDRESS : 11-5-432/3, Hari Nagar, Red Hills, Lakdikapul, Hyderabad, Telangana 500004
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr.P.Raghurami Reddy-Anu Psychiatric Clinic
+              </h4><br>
+              <p>
+                CONTACT : 040 2475 2321
+                <br><br>
+
+                ADDRESS : 2nd Floor,Above Bank Of Baroda,Beside Reddy Hostel,Near Mandakini Jaya International, Hanuman
+                Tekdi, Abids, Hyderabad, Telangana 500001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Psychiatric Cure without Medicines - Dr Prasad Manovikas Centre
+              </h4><br>
+              <p>
+                CONTACT : 098490 15524
+                <br><br>
+                WEBSITE : <a href="drprasadmanovikas.com">
+                  drprasadmanovikas.com
+                </a>
+                <br><br>
+                ADDRESS : 520, Lane No-4, Street No-3, Mayur Marg, Begumpet, behind Pantaloons Showroom, Hyderabad,
+                Telangana 500016
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Asha Hospital
+              </h4><br>
+              <p>
+                CONTACT : 040 6675 2222
+                <br><br>
+                WEBSITE : <a href="http://ashahospital.org/">
+                  http://ashahospital.org/
+                </a>
+                <br><br>
+                ADDRESS : Rd No:14, Banjara Hills, Hyderabad, Telangana 500034
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Chetana Hospital
+              </h4><br>
+              <p>
+                CONTACT : 040 4006 8384
+                <br><br>
+                WEBSITE : <a href="chetanahospital.com">
+                  chetanahospital.com
+                </a>
+                <br><br>
+                ADDRESS : 2-3-578/1 Kachi Colony,, Minister Road, Besides KIMS Hospital, Secunderabad, Telangana 500003
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Columbus Hospital INSTITUTE OF PSYCHIATRY
+              </h4><br>
+              <p>
+                CONTACT : 096524 96380
+                <br><br>
+                WEBSITE : <a href="http://www.columbushospitals.in/">
+                  http://www.columbushospitals.in/
+                </a>
+                <br><br>
+                ADDRESS : 1-10-63/4/1,Prakash Nagar Metro Station, Columbus Hospital Rd, Old Patigadda, Chikoti Gardens,
+                Begumpet, Hyderabad, Telangana 500016
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr.Virinchi Sharma
+              </h4><br>
+              <p>
+                CONTACT : 090002 17597
+                <br><br>
+                WEBSITE : <a href="http://www.drvirinchi.com/">
+                  http://www.drvirinchi.com/
+                </a>
+                <br><br>
+                ADDRESS : 6-1-276/A/6 Manasa - Branch of Sharma Hospital , Padma Rao Nagar Landmark, near NTR Statue Sai
+                Baba Temple, Secunderabad, Telangana 500025
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=psychiatrists%20in%20TELANGANA&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.whatismyip-address.com/divi-discount/"></a></div>
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="25 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Tripura</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Healthy Planet
+              </h4><br>
+              <p>
+                CONTACT : 0381 237 0064
+                <br><br>
+                WEBSITE : <a href="http://www.healthyplanet.org.in/">
+                  http://www.healthyplanet.org.in/
+                </a>
+                <br><br>
+                ADDRESS : Traffic Point, Near, 1st Floor, Monihari Market, Nagerjala Bus Stand Transit Rd, Bardowali,
+                Agartala, Tripura 799003
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Priyojyoti Chakma
+              </h4><br>
+              <p>
+                CONTACT : 081310 43421
+                <br><br>
+                WEBSITE : <a href="http://pchakma.com/">
+                  http://pchakma.com/
+                </a>
+                <br><br>
+                ADDRESS : near Kalika Diagnostic Centre, near Battala, Melarmath, Battala, Agartala, Tripura 799001
+              </p>
+
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=PSYCIATRISTS%20IN%20TRIPURA&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">elegant themes
+                promo code</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="26 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Uttar Pradesh</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Malaya Kant Singh
+              </h4><br>
+              <p>
+                CONTACT : 095652 21144
+                <br><br>
+                WEBSITE : <a href="http://kantbraincentre.in/">
+                  http://kantbraincentre.in/
+                </a>
+                <br><br>
+                ADDRESS : Kant Brain centre, 1/182, sector-1, Lohiya Rd Vikas Nagar Near shiva murti, Uttar Pradesh
+                226022
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                DR R.K.THUKRAL
+              </h4><br>
+              <p>
+                CONTACT : 094150 18018
+                <br><br>
+                WEBSITE : <a href="http://www.drrkthukral.com/">
+                  http://www.drrkthukral.com/
+                </a>
+                <br><br>
+                ADDRESS : B-20, Bara Chandganj, Sector A, Mahanagar, Lucknow, Uttar Pradesh 226020
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Positive Mind Clinic
+              </h4><br>
+              <p>
+
+                ADDRESS : 25/3, LIC Rd, Tagore Town, Prayagraj, Uttar Pradesh 211002
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Amogh Psychiatry centre
+              </h4><br>
+              <p>
+                CONTACT : 093135 92008
+                <br><br>
+                WEBSITE : <a href="https://drprakashchandra.business.site/?utm_source=gmb&utm_medium=referral">
+                  https://drprakashchandra.business.site/?utm_source=gmb&utm_medium=referral
+                </a>
+                <br><br>
+                ADDRESS : Shop No-40, Ground floor,ज्ञानखण्ड-3 ( Gyan Khand - 3),Near, Shipra Riviera gate no 1 &
+                St.Thomas school, Indirapuram, Indirapuram, Ghaziabad, Uttar Pradesh 201014
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Rakesh Kumar Paswan
+              </h4><br>
+              <p>
+                CONTACT : 098894 09192
+                <br><br>
+                WEBSITE : <a href="drrakeshpsychiatry.com">
+                  drrakeshpsychiatry.com
+                </a>
+                <br><br>
+                ADDRESS : 39/17 (9-A), Muir Road, near rajapur traffic chauraha, Uttar Pradesh 211001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Vinay Neuro Psychiatry Clinic Dr Abhinav Pandey
+              </h4><br>
+              <p>
+                CONTACT : 099365 88999
+                <br><br>
+
+                ADDRESS : 14/899, Indira Nagar, Lucknow, Uttar Pradesh 226016
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Rakesh Yaduvanshi
+              </h4><br>
+              <p>
+                CONTACT : 089091 13666
+                <br><br>
+                WEBSITE : <a href="samvednaneuropsychiatrycentre.com">
+
+                </a>
+                <br><br>
+                ADDRESS : Link Road, 100 Futa Road, Delha peer Near Oshi Banquet Hall, Uttar Pradesh 243122
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Shashwat Saxena
+              </h4><br>
+              <p>
+                CONTACT : 099359 79501
+                <br><br>
+                WEBSITE : <a href="http://www.drshashwat.com/">
+                  http://www.drshashwat.com/
+                </a>
+                <br><br>
+                ADDRESS : LGF, Singhal Complex, Sitapur Road, Opp. Daliganj Railway Crossing, Daliganj, Lucknow, Uttar
+                Pradesh 226020
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Iqbal Khan Psychiatrist
+              </h4><br>
+              <p>
+                CONTACT : 089481 18948
+                <br><br>
+                WEBSITE : <a href="https://dr-iqbal-khan.business.site/">
+                  https://dr-iqbal-khan.business.site/
+                </a>
+                <br><br>
+                ADDRESS : J.D.A Complex, 2nd Floor, Infornt Of Medical Police Chowki, Kanpur - Lucknow Rd, Jhansi, Uttar
+                Pradesh 284128
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Ajay Nihalani
+              </h4><br>
+              <p>
+                CONTACT : 081304 91951
+                <br><br>
+                WEBSITE : <a href="https://www.nihalaniclinics.com/">
+                  https://www.nihalaniclinics.com/
+                </a>
+                <br><br>
+                ADDRESS : A 124, Rajhans Plaza, Ahinsa Khand 1, Indirapuram, Ghaziabad, Uttar Pradesh 201014
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=PSYCIATRISTS%20IN%20UTTAR%20PRADESH&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">elegant themes
+                promo code</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="27 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Uttarakhand</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Akhil Chopra
+              </h4><br>
+              <p>
+                CONTACT : 070609 67850
+                <br><br>
+                WEBSITE : <a href="http://ahealthymind.co.in/">
+                  http://ahealthymind.co.in/
+                </a>
+                <br><br>
+                ADDRESS : General Mahadev Singh Rd, opposite Hotel Saffron Leaf, near Milan Vihar, Engineers Enclave,
+                Kanwali, Dehradun, Uttarakhand 248001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Sumit Mehta
+              </h4><br>
+              <p>
+                CONTACT : 0135 222 6056
+                <br><br>
+                WEBSITE : <a href="https://www.synergyhealthcare.in/Department-of-Psychiatry.aspx">
+                  https://www.synergyhealthcare.in/Department-of-Psychiatry.aspx
+                </a>
+                <br><br>
+                ADDRESS : Synergy Institute of Medical Sciences, Ballupur Chowk, Uddiwala, Dehradun, Uttarakhand 248001
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Doon Neuro Psychiatry Clinic
+              </h4><br>
+              <p>
+                CONTACT : 0135 264 1824
+                <br><br>
+
+                ADDRESS : 33, Shimla Bypass Rd, Devlok Colony, PNB Vihar, Majra, Dehradun, Uttarakhand 248171
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Manoj Trivedi Psychiatric Clinic
+              </h4><br>
+              <p>
+                CONTACT : 097608 53825
+                <br><br>
+
+                ADDRESS : Shakti sadan Colony, Near Amba Vihar Donehariya Mukhani Road, Haldwani, Uttarakhand 263139
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                PSYCHIATRY & DE ADDICTION CLINIC
+              </h4><br>
+              <p>
+                CONTACT : 075009 09919
+                <br><br>
+                WEBSITE : <a href="http://www.futelahospital.com/">
+                  http://www.futelahospital.com/
+                </a>
+                <br><br>
+                ADDRESS : Futela Hospital, Bareilly - Nainital Rd, Rudrapur, Uttarakhand 263153
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=PSYCIATRISTS%20IN%20UTTARKHAND&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">elegant themes
+                promo code</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="28 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In West Bengal</h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Arnab Ghosh Hajra
+              </h4><br>
+              <p>
+                CONTACT : 096740 36108
+                <br><br>
+                WEBSITE : <a href="arnabghoshhajra.com">
+                  arnabghoshhajra.com
+                </a>
+                <br><br>
+                ADDRESS : Amri Hospital, KB Block, JC16 & 17, JC Block, Sector-3, KB 24, Bidhannagar, Kolkata, West
+                Bengal 700098
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Gautam Saha
+              </h4><br>
+              <p>
+                CONTACT : 098305 78706
+                <br><br>
+                WEBSITE : <a href="drgautamsaha.com">
+                  drgautamsaha.com
+                </a>
+                <br><br>
+                ADDRESS : 19/C, Pioneer Park, Barasat, Kolkata, West Bengal 700124
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Sagnik Mukherjee
+              </h4><br>
+              <p>
+                CONTACT : 098313 13020
+                <br><br>
+                WEBSITE : <a href="drsagnikmukherjee.com">
+                  drsagnikmukherjee.com
+                </a>
+                <br><br>
+                ADDRESS : 19x/1 Dum Dum Road, opposite Cossipore Club, near 7 Tanks Crossing, Kolkata, West Bengal
+                700030
+              </p>
+
+            </li>
+
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Prathama Chaudhuri
+              </h4><br>
+              <p>
+                CONTACT : 033 2362 9571
+                <br><br>
+                WEBSITE : <a href="http://prathamachaudhuri.com/">
+                  http://prathamachaudhuri.com/
+                </a>
+                <br><br>
+                ADDRESS : P-345, CIT Road, Phoolbagan, Kolkata, West Bengal 700054
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Rajarshi Neogi's Psychiatric Clinic
+              </h4><br>
+              <p>
+                CONTACT : 098303 77043
+                <br><br>
+                WEBSITE : <a href="http://www.drrajarshineogi.net/">
+                  http://www.drrajarshineogi.net/
+                </a>
+                <br><br>
+                ADDRESS : 48/2A B.T. Road, Sithi More, Near Dev Villa Marriage House, Kolkata 700050, Kolkata, West
+                Bengal 700050
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mental Health Research Centre
+              </h4><br>
+              <p>
+                CONTACT : 098313 13020
+                <br><br>
+                WEBSITE : <a href="http://psychiatristkolkata.org/">
+                  http://psychiatristkolkata.org/
+                </a>
+                <br><br>
+                ADDRESS : 164, A/2, Prince Anwar Shah Road, Kolkata, West Bengal 700045
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Bappaditya Chowdhury
+              </h4><br>
+              <p>
+                CONTACT : 094332 30073
+                <br><br>
+                WEBSITE : <a
+                  href="https://docs.google.com/forms/d/1IdHtGpSJdrExT0KYMz4Ig7mA7yIm2Tsf014eXnuB2tE/viewform?edit_requested=true#responses">
+                  https://docs.google.com/forms/d/1IdHtGpSJdrExT0KYMz4Ig7mA7yIm2Tsf014eXnuB2tE/viewform?edit_requested=true#responses
+                </a>
+                <br><br>
+                ADDRESS : 9, Dr. U. N. Brahmachari Street (Formerly, Loudon St, Near Minto park, Kolkata, West Bengal
+                700017
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Tirthankar Dasgupta
+              </h4><br>
+              <p>
+                CONTACT : 090515 03332
+                <br><br>
+                WEBSITE : <a href="http://www.moneralo.com/">
+                  http://www.moneralo.com/
+                </a>
+                <br><br>
+                ADDRESS : 98A, Hemchandra Naskar Road,Near Phoolbagan Kali Bari, Kolkata, West Bengal 700010
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Era Dutta's Mind Wellness
+              </h4><br>
+              <p>
+                CONTACT : 096743 42789
+                <br><br>
+                WEBSITE : <a href="dreradutta.com">
+                  dreradutta.com
+                </a>
+                <br><br>
+                ADDRESS : 68/C, 1st floor, Hazra Road, Ballygunge, Kolkata, West Bengal 700019
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=PSYCIATRISTS%20IN%20WEST%20BENGAL&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">elegant themes
+                promo code</a></div>
+
+          </div>
+          <br><br><br><br><br>
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+  <div class="29 box">
+    <br><br><br>
+    <div class="container" style="background-color: white;">
+      <br><br><br>
+      <center>
+        <h1>Psychiatrists In Delhi
+        </h1>
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <br><br>
+          <ul class="list-group" style="padding-left: 20px;">
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Neuro Psychiatry clinic
+              </h4><br>
+              <p>
+                CONTACT : 098115 14463
+                <br><br>
+                WEBSITE : <a href="https://www.drdevrai.com/">
+                  https://www.drdevrai.com/
+                </a>
+                <br><br>
+                ADDRESS : 35 Upper ground floor, Masjid Rd, Jangpura, Bhogal, New Delhi, Delhi 110014
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Shabiullah Syyed
+              </h4><br>
+              <p>
+                CONTACT : 099996 61706
+                <br><br>
+                WEBSITE : <a href="https://dr-shabiullah-syyed.business.site/?utm_source=gmb&utm_medium=referral">
+                  https://dr-shabiullah-syyed.business.site/?utm_source=gmb&utm_medium=referral
+                </a>
+                <br><br>
+                ADDRESS : 125-C First Floor Basera Apartment, Lane Number 3, Noor Nagar Extension, Jamia Nagar, New
+                Delhi, Delhi 110025
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Prashant Goyal:
+              </h4><br>
+              <p>
+                CONTACT : 098182 78200
+                <br><br>
+                WEBSITE : <a href="http://www.drprashantgoyal.com/">
+                  http://www.drprashantgoyal.com/
+                </a>
+                <br><br>
+                ADDRESS : GG-1/193A, Behind PVR Complex Opp. Hdfc Bank, Vikaspuri, Delhi, 110018
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Anil Yadav
+              </h4><br>
+              <p>
+                CONTACT : 083750 03702
+                <br><br>
+                WEBSITE : <a href="https://dranilyadav.com/">
+                  https://dranilyadav.com/
+                </a>
+                <br><br>
+                ADDRESS : Main Market, X43, near Shiv temple, Green Park, New Delhi, Delhi 110016
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Anjali Nagpal
+              </h4><br>
+              <p>
+                CONTACT : 098110 06930
+                <br><br>
+                WEBSITE : <a href="http://www.serenityclinic.care/">
+                  http://www.serenityclinic.care/
+                </a>
+                <br><br>
+                ADDRESS : 313 Sector A, Near Fortis Hospital, Pocket B-C, Vasant Kunj, New Delhi, Delhi 110070
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr. Shwetank Bansal
+              </h4><br>
+              <p>
+                CONTACT : 088008 16996
+                <br><br>
+                WEBSITE : <a href="https://www.bettermementalhealth.com/">
+                  https://www.bettermementalhealth.com/
+                </a>
+                <br><br>
+                ADDRESS : Better Me Health Care, I-49, Balraj Khanna Marg, Opposite Axis Bank, Block I, West Patel
+                Nagar, Patel Nagar, New Delhi, Delhi 110008
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Anandam Psychiatry Centre
+              </h4><br>
+              <p>
+                CONTACT : 095825 82707
+                <br><br>
+                WEBSITE : <a href="http://www.anandampsychiatrycentre.com/">
+                  http://www.anandampsychiatrycentre.com/
+                </a>
+                <br><br>
+                ADDRESS : 1st floor, 4/1, E Patel Nagar Rd, Block 4, East Patel Nagar, Patel Nagar, New Delhi, Delhi
+                110008
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Dr Rohit Sharma Psychiatry Centre
+              </h4><br>
+              <p>
+                CONTACT : 084479 75044
+
+                <br><br>
+                WEBSITE : <a href="svastikaclinic.com">
+                  svastikaclinic.com
+                </a>
+                <br><br>
+                ADDRESS : A22/G3, Gali Number 25, Block A, Dilshad Garden, New Delhi, Delhi 110095
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                Mind Circle Neuropsychiatry and Drug Deaddiction Clinic
+              </h4><br>
+              <p>
+                CONTACT : 088722 86444
+                <br><br>
+
+                ADDRESS : Plot No-255, Pocket B-5, Sector-7, Rohini, New Delhi, Delhi 110085
+              </p>
+
+            </li>
+
+            <li class="list-group-item ">
+              <h4 style="color: rgb(255, 123, 0);">
+                PsyCare NeuroPsychiatry Care Center
+              </h4><br>
+              <p>
+                CONTACT : 011 4019 0801
+                <br><br>
+                WEBSITE : <a href="psycare.in">
+                  psycare.in
+                </a>
+                <br><br>
+                ADDRESS : Plot No. 52, Pocket 2, Jasola Vihar, New Delhi, Delhi 110025
+              </p>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-5">
+          <br><br>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=PSYCIATRISTS%20IN%20DELHI&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">elegant themes
+                promo code</a></div>
+
+          </div>
+          <br><br><br><br><br>
+
+          <center> <img src="img/doctor.jpg" height="400px" width="300px" alt=""></center>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+  </div>
+
+
+
+
+
+
+  <!-- ***************************************************************************************************************************************8
+                                     FOOTER
+******************************************************************************************************************************************************************************************************************************************* -->
+
+  <footer style="background-color: rgb(12, 12, 12);">
+
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
+      data-abc="true"></a>
+    <div class="height">
+
+      <p style="text-align: center; ">
+        <!-- <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fab fa-facebook-f"></a> -->
+        <a href="https://www.facebook.com/Here-To-Hear-104273114757133
+    " class="fa fa-facebook"></a>
+        <a href="http://www.instagram.com/__here_to_hear__ " class="fa fa-instagram"></a>
+
+    </div>
+
+    </p>
+
+    <p style="color: orange; text-align: center; padding-block-end: 10px ;">&nbsp; &copy; Copyrights reserved - 2020 |
+      HERE TO
+      HEAR &middot; </p>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"
+    integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg=="
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $("select").change(function () {
+        $(this).find("option:selected").each(function () {
+          var optionValue = $(this).attr("value");
+          if (optionValue) {
+            $(".box").not("." + optionValue).hide();
+            $("." + optionValue).show();
+          } else {
+            $(".box").hide();
+          }
+        });
+      }).change();
+    });
+  </script>
+
+
+</body>
+
+</html>
