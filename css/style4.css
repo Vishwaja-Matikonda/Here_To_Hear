@@ -1,0 +1,316 @@
+
+.navbar{
+    background-color: black;
+   }
+   /* .nav-link:hover{
+    background-color: rgb(8, 5, 0);
+    color: #000;
+  }
+   */
+.carousel-item{
+top: 0%;
+bottom: 0%;
+height: 500px;
+}
+
+/* .carousel-item {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background: linear-gradient(rgba(0,0,0,0.6))
+} */
+/* *****************************SOCIAL MEDIA***************************************************************************** */
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #db517b;
+  color: white;
+}
+.fa-telegram {
+  background: #388edf;
+  color: white;
+}
+
+
+
+
+
+.scroll {
+  color: #fff;
+  margin-top: 100px
+}
+
+#toTopBtn {
+  position: fixed;
+  bottom: 26px;
+  right: 39px;
+  z-index: 98;
+  padding: 21px;
+  background-color: hsla(5, 76%, 62%, .8)
+}
+
+.js .cd-top--fade-out {
+  opacity: .5
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1
+}
+
+.js .cd-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 20px;
+  bottom: var(--cd-back-to-top-margin);
+  right: 20px;
+  right: var(--cd-back-to-top-margin);
+  display: inline-block;
+  height: 40px;
+  height: var(--cd-back-to-top-size);
+  width: 40px;
+  width: var(--cd-back-to-top-size);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+  background-color: hsla(5, 76%, 62%, .8);
+  background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+/* ***************************************END OF SOCIAL MEDIA***************************************************************** */
+
+ .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+  position: relative;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-6{
+  position: relative;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-6 {
+  background-image: url("../img/together1.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("../img/32.jpg");
+  min-height: 400px;
+}
+
+
+.bgimg-2 {
+  background-image: url("../img/22.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../img/22.jpg");
+  min-height: 400px;
+}
+
+.bgimg-1 {
+  background-image: url("../img/17.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+h1 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+h2 {
+  letter-spacing: 5px;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+ .bgimg-1,.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-6 {
+    background-attachment: scroll;
+  }
+}
+
+
+/* *************************************************************************************** */
+
+/* ******************************HELP.HTML********************************************* */
+
+/* *************************************************************************************** */
+
+/* Make it looks good on CodePen */
+
+
+ .sonar-wrapper {
+  height: 100%;
+}
+
+/* Prevent scrollbars to appear when waves go out of bound */
+.sonar-wrapper {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding: 8rem 0;
+}
+
+/* The circle */
+.sonar-emitter {
+  position: relative;
+  margin: 0 auto;
+  width: 275px;
+  height: 275px;
+  border-radius: 9999px;
+  background-color: HSL(45,100%,50%);
+}
+
+/* the 'wave', same shape and size as its parent */
+.sonar-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  background-color: HSL(45,100%,50%);
+  opacity: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/*
+  Animate!
+  NOTE: add browser prefixes where needed.
+*/
+.sonar-wave {
+  animation: sonarWave 2s linear infinite;
+}
+
+@keyframes sonarWave {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.bi{
+  text-align: center;
+   font-weight:bolder;
+}
+
+#sonic{
+text-align: center;
+  /* height: 100px; */
+  /* padding-top: 90px; */
+}
+
+
+
+/* *************************************************************************************** */
+
+/* ******************************HELP.HTML********************************************* */
+
+/* *************************************************************************************** */
+.card{
+  background-color: lightgoldenrodyellow;
+}
+
+   
+   html {
+    scroll-behavior: smooth;
+}
+
+
+#side .nav-link.active,
+#side .nav-link:hover,
+#side .nav-link:focus{
+    color: #111;
+    border-bottom: 1px #000 dashed;
+}
+
+#header{
+  background-image: url("img/14.jpg");
+  opacity: 0.5;
+}
